@@ -1315,7 +1315,7 @@ end
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/main.luau"))()
 local Window = redzlib:MakeWindow({
-    Title = "OK Hub : Blox Fruit",
+    Title = "Redz Hub : Blox Fruit",
     SubTitle = "by @redz",
     SaveFolder = "oknaiget.json"
 })
@@ -1325,7 +1325,7 @@ local Minimizer = Window:NewMinimizer({
 })
 
 local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://127632820302449",
+  Image = "rbxassetid://74558145106872",
   BackgroundColor3 = Color3.fromRGB(0, 255, 254)
 })
 
@@ -1346,17 +1346,6 @@ local Tabs = {
     Misc = Window:MakeTab({ Title = "Tab Miscellaneous", Icon = "rbxassetid://10709783577" })
 }
 
-Tabs.Info:AddSection("Information")
-
-Tabs.Info:AddDiscordInvite({
-	Title = "OK Hub | Community",
-	Description = "A community for OK Hub Users - official scripts, updates, and suport in one place.",
-	Banner = "rbxassetid://127632820302449", 
-	Logo = "rbxassetid://127632820302449",
-	Invite = "https://discord.gg/HJbtKcHAw",
-	Members = 36, 
-	Online = 67, 
-})
 Tabs.Info:AddSection("Status Server")
 
 local TimeZone = Tabs.Info:AddParagraph("Time Zone", "")
@@ -11993,8 +11982,8 @@ end
 StartMainLoops()
 
 Window:Notify({
-  Title = "OK Hub",
-  Content = "OK hub da comeback",
+  Title = "Redz Hub",
+  Content = "Redz Hub da comeback",
   Image = "rbxassetid://127632820302449",
   Duration = 5
 })
