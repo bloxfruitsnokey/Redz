@@ -1313,7 +1313,7 @@ QuestNeta = function()
     }
 end
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/Garnet/ui.luau"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/Redz/ui.luau"))()
 local Window = redzlib:MakeWindow({
     Title = "Garnet Hub : Blox Fruit",
     SubTitle = "by @garnet",
