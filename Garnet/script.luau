@@ -1313,7 +1313,7 @@ QuestNeta = function()
     }
 end
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/Redz/ui.luau"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/Garnet/ui.luau"))()
 local Window = redzlib:MakeWindow({
     Title = "Garnet Hub : Blox Fruit",
     SubTitle = "by @garnet",
@@ -1325,7 +1325,7 @@ local Minimizer = Window:NewMinimizer({
 })
 
 local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://132684424743910",
+  Image = "rbxassetid://139133492924057",
   BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 })
 
@@ -11984,6 +11984,6 @@ StartMainLoops()
 Window:Notify({
   Title = "Garnet Hub",
   Content = "Garnet Hub comeback",
-  Image = "rbxassetid://132684424743910",
+  Image = "rbxassetid://139133492924057",
   Duration = 5
 })
