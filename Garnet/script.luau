@@ -1325,7 +1325,7 @@ local Minimizer = Window:NewMinimizer({
 })
 
 local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://139133492924057",
+  Image = "rbxassetid://132684424743910",
   BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 })
 
@@ -11984,6 +11984,6 @@ StartMainLoops()
 Window:Notify({
   Title = "Garnet Hub",
   Content = "Garnet Hub comeback",
-  Image = "rbxassetid://139133492924057",
+  Image = "rbxassetid://132684424743910",
   Duration = 5
 })
