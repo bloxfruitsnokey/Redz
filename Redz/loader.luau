@@ -596,7 +596,7 @@ sea2 = (game.PlaceId == 4442272183 or game.PlaceId == 79091703265657)
 sea3 = (game.PlaceId == 7449423635 or game.PlaceId == 100117331123089)
 
 local Settings = {
-    ["Tween Speed"] = 150,
+    ["Tween Speed"] = 200,
     ["Bypass Teleport"] = true,
     ["Up Y"] = false,
     ["Up Y When Low Health"] = false,
@@ -929,7 +929,7 @@ _tp = function(target)
     end
     
     local distance = (gg.Position - rootPart.Position).Magnitude
-    local tweenInfo = TweenInfo.new(distance / 300, Enum.EasingStyle.Linear)
+    local tweenInfo = TweenInfo.new(distance / 200, Enum.EasingStyle.Linear)
     local tween = game:GetService("TweenService"):Create(block, tweenInfo, {CFrame = gg})    
     
     if plr.Character.Humanoid.Sit == true then
