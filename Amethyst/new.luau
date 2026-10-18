@@ -373,7 +373,7 @@ end
 
 local info = Instance.new("TextLabel")
 info.Size = UDim2.new(1, -40, 0, 20)
-info.Position = UDim2.new(0, 20, 1, -27)
+info.Position = UDim2.new(0, 20, 1, -37)
 info.BackgroundTransparency = 1
 info.Text = "Latest version available at scriptpastebin.com."
 info.TextColor3 = Color3.fromRGB(135, 135, 145)
