@@ -11,7 +11,7 @@ local player = Players.LocalPlayer
 local ACCENT = Color3.fromRGB(145, 155, 55)
 local COPIED_COLOR = Color3.fromRGB(225, 135, 45)
 
-local SCRIPT_LINK = "https://discord.gg/pKS6qzcaqB"
+local SCRIPT_LINK = "https://discord.gg/SE3Fg6nfWD"
 
 local FRAME_WIDTH = 380
 local FRAME_HEIGHT = 400
@@ -333,13 +333,22 @@ list.Parent = changelog
 --==================================================
 
 local changes = {
-    "Halloween Event",
-    "Added Auto Trick or Treat",
-    "Added Auto Farm Pumpkin",
-    "Added Auto Kill Event Enemy",
-    "Added Auto Halloween Bosses",
-    "Added Auto Summon Great Pumpkin",
-    "Added Auto Spooky Gacha",
+    "Remove Bypass TP",
+    "Fixed Elite Hunter",
+    "Fixed Level 2500 Stuck",
+    "Fixed Fruit Gacha",
+    "Fixed Bone Indicator",
+    "Fixed Raid Teleport / Island 4 Stuck",
+    "Added Kill Aura on Islands 4 & 5",
+    "Fixed Prehistoric",
+    "Fixed Dojo Quest",
+    "Fixed Tween Fruit",
+    "Fixed Bone Farm 3 Quest",
+    "Fixed Rip Indra",
+    "Fixed Fishing Animation",
+    "Fixed Pirate Raid",
+    "Fixed Raid",
+    "Fixed TTK",
 }
 
 for i, change in ipairs(changes) do
