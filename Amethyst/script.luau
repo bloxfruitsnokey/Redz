@@ -11,7 +11,7 @@ local player = Players.LocalPlayer
 local ACCENT = Color3.fromRGB(145, 155, 55)
 local COPIED_COLOR = Color3.fromRGB(225, 135, 45)
 
-local SCRIPT_LINK = "https://discord.gg/pKS6qzcaqB"
+local SCRIPT_LINK = "https://discord.gg/SE3Fg6nfWD"
 
 local FRAME_WIDTH = 380
 local FRAME_HEIGHT = 400
