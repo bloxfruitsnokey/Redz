@@ -333,7 +333,9 @@ list.Parent = changelog
 --==================================================
 
 local changes = {
-    "Fixed Auto Farm Level",
+    "Webhook Server",
+    "Halloween Event",
+    "Fixed Some Bug",
     "Change Loader",
 }
 
