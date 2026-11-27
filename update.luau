@@ -333,7 +333,7 @@ list.Parent = changelog
 --==================================================
 
 local changes = {
-    "Fixed Some Bug",
+    "Fixed Auto Farm Level",
     "Change Loader",
 }
 
